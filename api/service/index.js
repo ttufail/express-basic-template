@@ -1,7 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
 
-const uri =
-  "";
+const uri = "" // add your own mongo URI
 const client = new MongoClient(uri, { useNewUrlParser: true });
 const addStudent = async (req, res) => {
   const data = [

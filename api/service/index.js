@@ -1,7 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 
 const uri =
-  "mongodb+srv://wajji:sXs1xX5PmGmefQUx@wajji.mrqsxol.mongodb.net/?retryWrites=true&w=majority";
+  "";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 const addStudent = async (req, res) => {
   const data = [
